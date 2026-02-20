@@ -27,14 +27,14 @@ function App(): React.JSX.Element {
             <hr></hr>
             <GiveAttempts></GiveAttempts>
             <hr></hr>
-            <EditMode></EditMode>
-            <hr></hr>
-            <ChangeColor></ChangeColor>
-            <hr></hr>
-            <MultipleChoiceQuestion
-                options={["a", "b", "c"]}
-                expectedAnswer="b"
-            ></MultipleChoiceQuestion>
+            {/*<EditMode></EditMode>*/}
+            {/*<hr></hr>*/}
+            {/*<ChangeColor></ChangeColor>*/}
+            {/*<hr></hr>*/}
+            {/*<MultipleChoiceQuestion*/}
+            {/*    options={["a", "b", "c"]}*/}
+            {/*    expectedAnswer="b"*/}
+            {/*></MultipleChoiceQuestion>*/}
             <hr></hr>
             <DoubleHalf></DoubleHalf>
             <hr></hr>
