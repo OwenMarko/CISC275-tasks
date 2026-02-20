@@ -20,7 +20,6 @@ export function CheckAnswer({
                 <Form.Control
                     value={answer}
                     onChange={updateAnswer}
-                    type="number"
                 />
             </Form.Group>
             {expectedAnswer == answer ? "✔️": "❌"}
