@@ -18,7 +18,7 @@ export function MultipleChoiceQuestion({
         } else {
             setCorrect(false);
         }
-    }, [selected])
+    }, [selected, expectedAnswer]);
 
 
     return (
